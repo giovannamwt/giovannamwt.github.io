@@ -237,3 +237,52 @@ footer{
     margin-right: 0;
 }
 
+#contacts{
+display: flex;
+flex-direction: row;
+gap: 5%;
+
+}
+#contacts img{
+width: 400px;
+}
+#contatosfinais{
+    text-align: start;
+    align-items: flex-start;
+    width: 400px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 0;  
+    height: 100%;
+}
+#shadow-host-companion{
+    display: none;
+}
+#contacts button{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    gap: 50%;
+    font-family: 'Sore' , sans-serif;
+    font-size: 15px;
+    margin: 20px 10px 0 0;
+
+}
+#l:hover{
+    background-color:#0e76a8;
+}
+#w:hover{
+    background-color: #25D366;
+    color: black;
+}
+i{
+    margin-right: 5px;
+}
