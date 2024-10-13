@@ -1,62 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Giovanna</title>
 </head>
 <body>
-<header>
-    <ul id="nav-bar">
-        <li class="nav-item"><a href="#">Sobre</a></li>
-        <li class="nav-item"><a href="#">Projetos</a></li>
-        <li class="nav-item"><a href="#">Contatos</a></li>
-    </ul>
-</header>
-<section id="welcome">
-    <div id="textos">
-        <h1>Lorem ipsum dolor sit.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi qui eveniet fugit nemo! Itaque quasi quam nobis animi, placeat aliquam, velit, consequuntur quia quod exercitationem iure voluptates dolores numquam voluptatibus.</p>
-    </div>
-    <img src="/images/perfil.png" alt="foto giovanna" id="perfil">
-    
+    <nav>
+        <h3>{Giovanna}</h3>
+        <ul id="nav-bar">
+            <li class="nav-item"><a href="#header">{ <span>Sobre</span> }</a></li>
+            <li class="nav-item"><a href="#skills">{ <span>Skills</span> }</a></li>
+            <li class="nav-item"><a href="#projects">{ <span>Projetos</span> }</a></li>
+            <li class="nav-item"><a href="#footer">{ <span>Contato</span> }</a></li>
+        </ul>
+        <button><i class="ph ph-translate"></i></button>
+    </nav>
+    <header id="header">
+        <div id="content">
+            <h1>Olá eu sou <span>Giovanna</span>, Desenvolvedora <span>Front-end</span></h1>
+            <p>Meu nome é Giovanna Rodrigues, tenho 27 anos. Atuo como desenvolvedora front-end com projetos pessoais e freelancer. Sou formada em Publicidade e trabalhei na área do design durante 4 anos. E como gosto de tecnologia, resolvi fazer a transição de carreira.
+                <br><br>Meu objetivo é ser uma profissional reconhecida pela excelência dos resultados que entrego. Com esse propósito, me dedico diariamente ao estudo e à aplicação dos meus conhecimentos em projetos práticos.</p>
+                <div id="botoes-header">
+                    <a href="https://wa.me/55085985997194" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="" class="contatinho"></a>
+                    <a href="https://github.com/giovannamwt" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="" class="contatinho"></a>
+                    <a href="https://www.linkedin.com/in/giovanna-rodrigues1/" target="_blank"><img src="	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="" class="contatinho"></a>
+                    <!-- <button><i class="ph ph-github-logo"></i></button>
+                    <button><i class="ph ph-linkedin-logo"></i></button>
+                    <button><i class="ph ph-whatsapp-logo"></i></button> -->
+                </div>
+        </div>
+        <img src="/images/garota1.png" alt="">
 
-</section>
-<section id="skills">
-    <h1>Skills and Tools</h1>
-    <div id="blocos">
-        <img  class="skill" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html">
-        <img  class="skill" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css">
-        <img  class="skill" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="python">
-        <img  class="skill" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript">
-        <img  class="skill" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify">
-        <img  class="skill" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma">
-    
-    </div>
+    </header>
+    <section id="skills">
+        <h1>Minhas <span>Skills</span></h1>
 
-</section>
-<section id="projects">
-    <h1>Projects</h1>
-    <p>Some of my most important projects as a Front-End developer.</p>
-    <div class="projetos">
-        <img src="/images/1.png" alt=""  class="projeto">
-        <img src="/images/2.png" alt=""  class="projeto">
-        <img src="/images/3.png" alt=""  class="projeto">
- 
-    </div>
-    <div class="projetos">
+        <ul id="skills-itens">
+           <li class="skill">
+                <img src="/images/1x/Prancheta 2.png" alt="logo Figma">
+                Figma</li>
+           <li class="skill">
+                <img src="/images/1x/Prancheta 1.png" alt="logo JavaScript">
+                JavaScript</li>
+           <li class="skill">
+                <img src="/images/1x/Prancheta 3.png" alt="logo Bootstrap">
+                Bootstrap</li>
+           <li class="skill">
+                <img src="/images/1x/Prancheta-4.png" alt="logo GitHub">
+                GitHub</li>
+           <li class="skill">
+                <img src="/images/1x/Prancheta 5.png" alt="logo React">
+                React</li>
+           <li class="skill">
+                <img src="/images/1x/Prancheta-6.png" alt="logo Python">
+                Python</li>
+        </ul>
 
-        <img src="/images/6.png" alt=""  class="projeto">
-        <img src="/images/5.png" alt=""  class="projeto">
-        <img src="/images/4.png" alt=""  class="projeto">
-    </div>
+    </section>
+    <section id="projects">
+        <h1>Meus <span>Projetos</span></h1>
+        <div id="project01" class="project">
+            <img src="/images/alleanza.png" alt="" class="foto-mockup">
+            <div class="content">
+                <h2 class="number">01</h2>
+                <h2>Alleanza Odontologia - Site responsivo</h2>
+                <p>Página criada para a clínica de Odontologia Alleanza. As sócias solicitaram uma landing page simples e objetiva para representar seus serviços e valores de forma mais profissional.</p>
+                <p>Todo o layout foi desenvolvido por mim no figma e, em seguida, fiz o código seguindo o projeto visual pré-aprovado. Através deste trabalho, passei a desenvolver minhas habilidades com responsividade e tornar minhas criações mais dinâmicas.</p>
+                <div class="links-portfolio">
 
-</section>
-<section id="contact">
-    [![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.linkedin.com/in/giovanna-rodrigues1/)
-    [![Gmamil](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://www.linkedin.com/in/giovanna-rodrigues1/)
-</section>
-<footer></footer>
+                    <i class="ph ph-link"></i> <a href="https://alleanza.netlify.app/" target="_blank"><p>Site</p></a>
+
+                </div>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-code"></i> <a href="https://github.com/giovannamwt/alleanza" target="_blank"><p>Código</p></a>
+
+                </div>
+            </div>
+        </div>
+        <div id="project02" class="project">
+            
+            <div class="content">
+                <h2 class="number">02</h2>
+                <h2>Jogo de Dados</h2>
+                <p>Este projeto surgiu através de uma atividade simples do curso. O objetivo era fazer um site para calcular o IMC do usuário e informar a ele sua classificação. Adcionei uma pitada de criatividade de forma espontânea unindo cenas dos Simpsons em cada etapa do processo. O resultado você confere a seguir.</p>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-link"></i> <a href="https://imcimcimc.netlify.app/" target="_blank"><p>Site</p></a>
+
+                </div>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-code"></i> <a href="https://github.com/giovannamwt/game-dice" target="_blank"><p>Código</p></a>
+
+                </div>
+                
+            </div>
+            <img src="/images/dados.gif" alt="" class="foto-mockup">
+        </div>
+        <div id="project03" class="project">
+            <img src="/images/ivv.png" alt="" class="foto-mockup">
+            <div class="content">
+                <h2 class="number">03</h2>
+                <h2>Mercadinho IVV</h2>
+                <p>Este projeto surgiu através de uma atividade simples do curso. O objetivo era fazer um site para calcular o IMC do usuário e informar a ele sua classificação. Adcionei uma pitada de criatividade de forma espontânea unindo cenas dos Simpsons em cada etapa do processo. O resultado você confere a seguir.</p>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-link"></i> <a href="https://mercado-ivv.netlify.app/" target="_blank"><p>Site</p></a>
+
+                </div>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-code"></i> <a href="https://github.com/giovannamwt/mercadinho-ivv" target="_blank"><p>Código</p></a>
+
+                </div>
+            </div>
+        </div>
+        <div id="project05" class="project">
+            
+            <div class="content">
+                <h2 class="number">05</h2>
+                <h2>SheCodes</h2>
+                <p>Este projeto surgiu através de uma atividade simples do curso. O objetivo era fazer um site para calcular o IMC do usuário e informar a ele sua classificação. Adcionei uma pitada de criatividade de forma espontânea unindo cenas dos Simpsons em cada etapa do processo. O resultado você confere a seguir.</p>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-link"></i> <a href="https://shecodess.netlify.app/" target="_blank"><p>Site</p></a>
+
+                </div>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-code"></i> <a href="https://github.com/giovannamwt/shecodes-desk" target="_blank"><p>Código</p></a>
+
+                </div>
+            </div>
+            <img src="/images/shecodes.png" alt="" class="foto-mockup">
+        </div>
+        <div id="project06" class="project">
+            <img src="/images/todo.gif" alt="" class="foto-mockup">
+            <div class="content">
+                <h2 class="number">06</h2>
+                <h2>Checklist</h2>
+                <p>Este projeto surgiu através de uma atividade simples do curso. O objetivo era fazer um site para calcular o IMC do usuário e informar a ele sua classificação. Adcionei uma pitada de criatividade de forma espontânea unindo cenas dos Simpsons em cada etapa do processo. O resultado você confere a seguir.</p>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-link"></i> <a href="https://giovannamwt.github.io/to-to-list/" target="_blank"><p>Site</p></a>
+
+                </div>
+                <div class="links-portfolio">
+
+                    <i class="ph ph-code"></i> <a href="https://github.com/giovannamwt/to-to-list" target="_blank"><p>Código</p></a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer">
+        telefone, github, linkedin
+    </footer>
 </body>
 </html>

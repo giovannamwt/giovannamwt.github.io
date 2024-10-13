@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: 'Sore' , sans-serif;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+nav{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 80px;
+}
+#translate{
+    width: 30px;
+
+}
+
+
+/* svg {
+	font-family: 'Sore' , sans-serif;
+    font-weight: 800;
+	width: 100%; height: 100%;
+    margin: 0;
+    padding: 0;
+}
+svg text {
+	animation: stroke 10s infinite alternate;
+	stroke-width: 1;
+	stroke: #000000;
+	font-size: 24px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); }
+	80%  {fill: rgba(0,0,0,0); stroke: rgba(0,0,0,1); stroke-width: 3; }
+	100% {
+		fill: rgba(0,0,0,1); stroke: rgba(0,0,0,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF}; */
+
+
+
+nav button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0 20px;
+    font-family: 'Sore' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    height: 50px;
+    
+}
+nav button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+#nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+#nav-item{
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+a:hover{
+    color: black;
+
+}
+nav span{
+    color: black;
+    font-weight: 600;
+}
+
+#botoes-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin-top: 7%;
+
+
+}
+.contatinho{
+    border-radius: 5px;
+}
+
+h1{
+    
+    font-size: 48px;
+    color: black;
+    font-weight: 400;
+
+}
+
+p{
+    color: #71717A;
+    font-size: 16px;
+    font-weight: 400;
+}
+span{
+    font-weight: 800;
+}
+
+header{
+    padding: 24px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button{
+    margin: 40px 20px 0 0;
+    border-radius: 5px;
+    padding: 9px 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+
+    
+    
+}
+header button:hover{
+    background-color: black;
+    color: white;
+
+
+}
+#botoes-header{
+
+}
+
+section{
+    padding: 24px 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section h1{
+    text-align: center;
+}
+#skills{
+    margin-bottom: 70px;
+}
+
+#skills-itens{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    width: 186px;
+    height: 186px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill:hover{
+    background-color: black;
+    color: white;
+
+
+}
+.skill img{
+    width: 56px;
+    margin-bottom: 15px;
+}
+
+
+#projects{
+    background-color: black;
+    color: white;
+}
+#projects h1{
+    color: white;
+}
+
+.project{
+    display: flex;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-portfolio{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.links-portfolio p{
+    color: white;
+    margin: 10px 5px;
+}
+.foto-mockup{
+    border-radius: 18px;
+    width: 530px;
+    margin: 20px 70px 20px 0;
+}
+.number{
+    font-size: 48px;
+}
+#project02 img{
+    margin-left: 70px;
+    margin-right: 0;
+}
+#project05 img{
+    margin-left: 70px;
+    margin-right: 0;
+}
+
